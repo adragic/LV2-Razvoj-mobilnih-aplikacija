@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeightConversion">
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/weight_conversion"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/salomon"
+        android:layout_margin="10dp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:layout_alignParentTop="true"/>
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:spinnerMode="dropdown"
+
+        android:layout_margin="10dp"
+        android:layout_below="@id/title2"/>
+
+    <EditText
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Value"
+        android:background="@color/gray"
+        android:textColor="@color/salomon"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/salomon"
+        android:textCursorDrawable="@color/white"
+        android:layout_below="@+id/spinner3"/>
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:spinnerMode="dropdown"
+
+        android:layout_margin="10dp"
+        android:layout_below="@id/text2"/>
+    <TextView
+        android:id="@+id/probniweight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner4"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/btnWeight"
+        android:textSize="20dp"
+        android:textColor="@color/gray"
+        android:background="@color/salomon"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

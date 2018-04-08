@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">LV2_Converter</string>
+    <string name="btnConvert">Convert</string>
+    <string name="TextOne">textone</string>
+    <string name="tempConversion">Temperature Conversion</string>
+    <string name="weight_conversion">Weight Conversion</string>
+    <string name="btnWeight">Convert</string>
+    <string name="distance_conversion">Distance Conversion</string>
+    <string name="btnDistance">Convert</string>
+    <string name="btnVolume">Convert</string>
+    <string name="volume_conversion">Volume Conversion</string>
+    <string-array name="temperatureArray">
+        <item>Celsius</item>
+        <item>Kelvin</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string-array name="weightArray">
+        <item>Tone</item>
+        <item>Kilogram</item>
+        <item>Gram</item>
+        <item>Milligram</item>
+        <item>Pound</item>
+    </string-array>
+    <string-array name="distanceArray">
+        <item>Meter</item>
+        <item>Centimeter</item>
+        <item>Kilometer</item>
+        <item>Miles</item>
+        <item>Foot</item>
+        <item>Inches</item>
+        <item>Yard</item>
+    </string-array>
+    <string-array name="volumeArray">
+        <item>Litre</item>
+        <item>Millilitre</item>
+        <item>US Liquid Gallon</item>
+        <item>Imperial Gallon</item>
+        <item>Cubic metre</item>
+    </string-array>
+
+</resources>

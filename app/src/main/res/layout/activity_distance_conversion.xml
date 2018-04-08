@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DistanceConversion">
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/distance_conversion"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/salomon"
+        android:layout_margin="10dp"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:layout_alignParentTop="true"/>
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:spinnerMode="dropdown"
+
+        android:layout_margin="10dp"
+        android:layout_below="@id/title3"/>
+
+    <EditText
+        android:id="@+id/text3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter Value"
+        android:background="@color/gray"
+        android:textColor="@color/salomon"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/salomon"
+        android:textCursorDrawable="@color/white"
+        android:layout_below="@+id/spinner5"/>
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:spinnerMode="dropdown"
+
+        android:layout_margin="10dp"
+        android:layout_below="@id/text3"/>
+    <TextView
+        android:id="@+id/probnitext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner6"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/btnDistance"
+        android:textSize="20dp"
+        android:textColor="@color/gray"
+        android:background="@color/salomon"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

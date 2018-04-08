@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayResultActivity"
+    android:background="@color/gray">
+
+    <TextView
+        android:id="@+id/displaytext1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:text="@string/TextOne"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:textColor="@color/salomon"/>
+    <TextView
+        android:id="@+id/displaytext2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:text="@string/TextOne"
+        android:gravity="center"
+        android:layout_below="@+id/displaytext1"/>
+    <TextView
+        android:id="@+id/displaytext3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:text="@string/TextOne"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_below="@id/displaytext2"
+        android:textColor="@color/salomon"/>
+    <TextView
+        android:id="@+id/displaytext4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:text="@string/TextOne"
+        android:gravity="center"
+        android:layout_below="@id/displaytext3"/>
+
+
+</RelativeLayout>
